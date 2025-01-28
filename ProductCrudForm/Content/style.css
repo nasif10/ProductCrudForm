@@ -1,0 +1,33 @@
+﻿footer {
+    position: absolute;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.pagerStyle table tr td span {
+    background-color: #B5DBE8;
+    border: 1px solid #ddd;
+    color: #00008B;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pagerStyle table tr td a {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #337ab7;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pagerStyle table tr td a:hover {
+    background: #00008B;
+    border-radius: 4px;
+    color: #B5DBE8;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.3rem 0.5rem !important;
+}
